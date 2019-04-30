@@ -1,3 +1,12 @@
+#Project: EIGF Discord Bot
+#Author: Riley Dixon
+#Class:
+#Version:
+#Purpose:
+#Changelog:
+
+
+
 import os
 import asyncio
 

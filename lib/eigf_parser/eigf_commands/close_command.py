@@ -1,3 +1,12 @@
+#Project: EIGF Discord Bot
+#Author: Riley Dixon
+#Class:
+#Version:
+#Purpose:
+#Changelog:
+
+
+
 from eigf_commands.base_command import BaseCommand
 
 class CloseCommand(BaseCommand):
