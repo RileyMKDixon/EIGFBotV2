@@ -1,9 +1,13 @@
 #Project: EIGF Discord Bot
 #Author: Riley Dixon
-#Class:
-#Version:
-#Purpose:
+#Class: BaseCommand
+#Version: v0.1
+#Purpose: Provides an abstract base class for how each command issued to the
+#         bot should act. Each command should instantiate itself with the
+#         required data it needs, as well as to implement the required
+#         function for each command.
 #Changelog:
+# v0.1 - Create stub class.
 
 
 

@@ -4,7 +4,7 @@
 #Version:
 #Purpose:
 #Changelog:
-
+# v0.1 - Create stub class.
 
 
 class CommandFactory():

@@ -1,10 +1,10 @@
 #Project: EIGF Discord Bot
 #Author: Riley Dixon
-#Class:
-#Version:
-#Purpose:
+#Class: HelpCommand
+#Version: v0.1
+#Purpose: Sends a help message to the desired channel.
 #Changelog:
-
+# v0.1 - Create stub class.
 
 
 from eigf_commands.base_command import BaseCommand

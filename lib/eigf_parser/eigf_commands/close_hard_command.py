@@ -1,10 +1,11 @@
 #Project: EIGF Discord Bot
 #Author: Riley Dixon
-#Class:
-#Version:
-#Purpose:
+#Class: CloseHardCommand
+#Version: v0.1
+#Purpose: Ungracefully kills the process. to be used if the bot
+#         does not respond to commands or behaves erratically.
 #Changelog:
-
+# v0.1 - Create stub class.
 
 
 from eigf_commands.base_command import BaseCommand
