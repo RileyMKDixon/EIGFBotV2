@@ -8,5 +8,7 @@
 
 
 class EISaver():
-    def __init__():
+    
+    @classmethod
+    def savePlayers(playerList, altList):
         pass

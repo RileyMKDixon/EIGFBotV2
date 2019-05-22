@@ -8,5 +8,7 @@
 
 
 class EILoader():
-    def __init__():
+    
+    @classmethod
+    def loadPlayers():
         pass
