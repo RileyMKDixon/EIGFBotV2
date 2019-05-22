@@ -16,10 +16,18 @@ import discord
 
 class EIGFBot():
     def __init__(self, private_token):
+        self.private_token = private_token
+        self.client = discord.Client()
+
+    def startup(self):
+        self.client.loop.create_task(backgroundHeartbeatTask(self.client))
+        self.client.run(self.private_token)
+
+    def close(self):
         pass
 
-    def startup():
-        pass
-
-    def close():
-        pass
+async def backgroundHeartbeatTask(client):
+    await client.wait_until_ready()
+    while(not client.is_closed):
+        print("Bot is still alive!")
+        await asyncio.sleep(120) #Sleep for 120 seconds

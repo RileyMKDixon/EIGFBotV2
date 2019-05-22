@@ -9,9 +9,12 @@
 #in the initialization of the bot.
 
 import os
-from . import EIGFBot
+from eigf_bot import EIGFBot
+from dotenv import load_dotenv
 
-botToken = os.environ.get("EIGF_BOT_TOKEN")
+load_dotenv()
+
+botToken = os.getenv("EIGF_BOT_TOKEN")
 
 bot = EIGFBot(botToken)
 
