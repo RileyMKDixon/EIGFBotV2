@@ -1,3 +1,4 @@
 
 data/WiresharkData/*
 data/.env
+lib/.env
