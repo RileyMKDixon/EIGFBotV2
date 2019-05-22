@@ -2,4 +2,4 @@
 data/WiresharkData/*
 data/.env
 lib/.env
-lib/__pycache__
+__pycache__
