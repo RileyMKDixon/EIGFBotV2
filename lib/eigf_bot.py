@@ -15,7 +15,7 @@ import asyncio
 import discord
 
 class EIGFBot():
-    def __init__():
+    def __init__(self, private_token):
         pass
 
     def startup():

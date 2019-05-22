@@ -15,6 +15,8 @@ import abc
 
 class BaseCommand(abc.ABC):
     
+    isPrivledgedCommand = True #If a command is not privledged, this should be overriden.
+
     @abc.abstractmethod
     def executeCommand(self):
         pass

@@ -7,3 +7,12 @@
 
 #Initialize the bot and Environment Vars here. Player data should be loaded
 #in the initialization of the bot.
+
+import os
+from . import EIGFBot
+
+botToken = os.environ.get("EIGF_BOT_TOKEN")
+
+bot = EIGFBot(botToken)
+
+bot.startup()
