@@ -3,3 +3,4 @@ data/WiresharkData/*
 data/.env
 lib/.env
 __pycache__
+.pytest_cache
