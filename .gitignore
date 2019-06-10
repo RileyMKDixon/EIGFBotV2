@@ -5,3 +5,7 @@ lib/.env
 __pycache__
 .pytest_cache
 .vscode/settings.json
+venv/*
+EIGFBot.egg-info/*
+setup.py
+EIGF_Workspace.code-workspace
